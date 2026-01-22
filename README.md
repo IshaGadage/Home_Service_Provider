@@ -1,49 +1,80 @@
-Home Service Providers
+🏠 Home Service Providers
 
-This is a Java Spring MVC project using JSP pages.
-It follows MVC structure (Model, View, Controller).
+A Java Spring MVC project using JSP pages.
+This project follows the MVC architecture and helps manage home services easily.
 
-Technologies Used
+✨ Features
 
-Java
+👤 User & Customer Management
 
-Spring MVC
+🛠️ Home Service Management
 
-JSP
+🌐 JSP-based User Interface
 
-MySQL
+🗄️ MySQL Database Support
 
-Maven
+🔁 MVC Structure (Model, View, Controller)
 
-Project Structure
+🧰 Technologies Used
 
-Model – Entity and database classes
+☕ Java
 
-View – JSP pages
+🌱 Spring MVC
 
-Controller – Handle requests and responses
+📄 JSP
 
-Features
+🐬 MySQL
 
-User and service management
+📦 Maven
 
-JSP-based UI
+🖥️ Apache Tomcat
 
-Database connectivity
+🏗️ Project Structure (MVC)
+src/main/java
+ ├── controller
+ ├── service
+ ├── repository
+ └── model
 
-Database
+src/main/webapp
+ └── WEB-INF
+     └── jsp
 
-Database configuration is in
+
+Model → Database & entities
+
+View → JSP pages
+
+Controller → Handles requests
+
+🗄️ Database Configuration
+
+Database details are in:
+
 src/main/resources/application.properties
 
-How to Run
 
-Open project in STS
+You can change:
+
+database name
+
+username
+
+password
+
+▶️ How to Run
+
+Clone the project
+
+Open it in STS
 
 Update database details
 
 Run on Tomcat server
 
-Author
+Open in browser
+
+
+👩‍💻 Author
 
 Isha Gadage
